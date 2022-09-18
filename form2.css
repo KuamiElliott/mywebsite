@@ -163,6 +163,11 @@ form{
     font-size: 1.5rem;
     color: blue;
     border: none;
+    transition: transform .4s;
+}
+
+.btn:hover{
+    transform: scale(1.1);
 }
 
 @media (min-width:576px){
